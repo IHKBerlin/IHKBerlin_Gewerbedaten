@@ -1,0 +1,26 @@
+# This workflow updates some specific metadata fields for a dataset in CKAN.
+name: Datenregister Dataset Update
+on:
+  push:
+    paths:
+      - 'data/**'
+env:
+  CKAN_TOKEN: ${{secrets.CKAN_TOKEN}}
+jobs:
+  dataset_update:
+    runs-on: ubuntu-latest
+    name: Dataset Update
+    steps:
+      - name: Do not run on template repository
+        shell: bash
+        run: |
+          curl https://api.github.com/repos/$GITHUB_REPOSITORY \
+            | jq --exit-status '.is_template == false'
+      # check out this repo
+      - uses: actions/checkout@v2
+      - name: Install Requirements
+        run: |
+          pip install -r requirements.txt
+      - name: Run Updater
+        run: |
+          make dataset-update

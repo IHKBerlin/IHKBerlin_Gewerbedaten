@@ -1,0 +1,13 @@
+{
+  "dataset": {
+    "id": "name_oder_id_des_datensatzes",
+    "title": "Titel des Datensatzes",
+    "notes": "Hier sollte eine Beschreibung des Datensatzes stehen.",
+    "author": "Name der Veröffentlichenden Stelle",
+    "license_id": "cc-zero",
+    "berlin_source": "api-gitaction"
+  },
+  "connection": {
+    "ckan_base": "https://datenregister.stage.berlinonline.net"
+  }
+}

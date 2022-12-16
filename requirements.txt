@@ -1,0 +1,2 @@
+j2cli
+git+https://github.com/berlinonline/ckan_metadata_updater

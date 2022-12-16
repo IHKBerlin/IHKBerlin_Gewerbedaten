@@ -1,0 +1,49 @@
+# This workflow is used to initialize a new repository when it is created
+# from this template rempository.
+name: Init Dataset Project
+on:
+  push:
+    paths:
+      - 'conf/ckan_updater.json'
+jobs:
+  initialize_repository:
+    name: Initialize Dataset Repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Do not run scaffolding on template repository
+        shell: bash
+        # This workflow runs when the `conf/ckan_updater.json` file is modified.
+        # This is the trick to re-init a repository, but we don't want to
+        # run this action if this file is modified in the origin template repository.
+        #
+        # Using the GitHub rest API allows us to identify if the current repository
+        # is a template repository or not.
+        # see https://github.com/stefanbuck/cookiecutter-template/blob/main/.github/workflows/setup-repository.yml
+        run: |
+          gh api repos/$GITHUB_REPOSITORY \
+            | jq --exit-status '.is_template == false'
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - uses: actions/checkout@v2
+      - name: Install Requirements
+        shell: bash
+        run: |
+          pip install -r requirements.txt
+      - name: Run initialisation make target
+        shell: bash
+        run: |
+          make repository-init
+      - name: Commit and Push
+        shell: bash
+        run: |-
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git add README.md admin.md conf/ckan_updater.json
+          git commit -m "initialise repository"
+          git push
+      - name: Disable this Workflow
+        shell: bash
+        run: |
+          gh workflow disable -R $GITHUB_REPOSITORY "${{ github.workflow }}"
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

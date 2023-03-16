@@ -1,21 +1,15 @@
-# IHK Berlin Open Data
+# Gewerbedaten der IHK Berlin
 
-This repository contains open-source datasets from [IHK Berlin](https://www.ihk.de/berlin/).
+Industrie- und Handelskammer zu Berlin
 
+Geografische Verteilung der gewerbetreibenden Unternehmen der Stadt Berlin, nach Branche, Ausbildungsbetrieb, Mitarbeiterzahl, Alter des Unternehmens und rechtlichem Status.
 
-## What kind of data?
-The data comes primarily from the database of IHK Berlin and is additionally combined with [LOR](https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/sozialraumorientierte-planungsgrundlagen/lebensweltlich-orientierte-raeume/).
-The dataset is updated every month, and the folder archivedData contains the historical datasets. All datasets contain a unique and consistent ID. 
+---
 
+Dieser Datensatz ist Teil von [Berlin Open Data](https://daten.berlin.de), dem zentralen Portal für offene Daten des Landes Berlin.
+Der Datensatz ist dort unter https://daten.berlin.de/datensaetze/gewerbedaten-ihkberlin eingetragen.
 
-## What can you do with it?
-The data is for you to explore, visualize and to create combinations with other datasets. We are very interested what you can do and what you use it for.
+## Lizenz
 
-
-## Contacts us
-opendata@berlin.ihk.de
-
-
-## Dataset description
-
+Die [Daten](data) in diesem Repository sind unter [Creative Commons Zero](https://opendefinition.org/licenses/cc-zero/) veröffentlicht.
 

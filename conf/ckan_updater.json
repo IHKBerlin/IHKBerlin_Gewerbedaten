@@ -5,7 +5,8 @@
     "notes": "Geografische Verteilung der gewerbetreibenden Unternehmen der Stadt Berlin, nach Branche, Ausbildungsbetrieb, Mitarbeiterzahl, Alter des Unternehmens und rechtlichem Status.",
     "author": "Industrie- und Handelskammer zu Berlin",
     "license_id": "cc-zero",
-    "berlin_source": "api-gitaction"
+    "berlin_source": "api-gitaction",
+    "url": "https://github.com/IHKBerlin/opendata"
   },
   "connection": {
     "ckan_base": "https://datenregister.berlin.de/"

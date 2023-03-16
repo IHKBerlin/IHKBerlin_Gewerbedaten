@@ -17,3 +17,27 @@ opendata@berlin.ihk.de
 
 
 ## Dataset description
+
+
+| Column        | Description |
+| ------------- | ------------- |
+| opendata_id  | primary key  |
+| longitude    | Geolocation of the business, described by the longitude  |
+| latitude     | Geolocation of the business, described by the latitude  |
+| postcode     | Postcode of the business |
+| city         | City of the business |
+| Bezirk       | Bezirk of the business |
+| Ortsteil     | Ortsteil of the business |
+| Prognoseraum    | LOR Prognoseraum  |
+| Bezirksregion  | LOR Bezirksregion |
+| Planungsraum    | LOR Planungsraum |
+| planungsraum_id    | LOR planungsraum nummer  |
+| ihk_branch_id  | Content Cell   |
+| ihk_branch_desc    | Content Cell  |
+| nace_id  | Content Cell  |
+| nace_desc    | Content Cell  |
+| branch_top_level_id  | Content Cell  |
+| branch_top_level_desc    | Content Cell  |
+| employees_range  | Content Cell  |
+| business_age    | Content Cell  |
+| business_type  | Content Cell  |

@@ -3,7 +3,7 @@
     "id": "gewerbedaten-ihkberlin",
     "title": "Gewerbedaten der IHK Berlin",
     "notes": "Geografische Verteilung der gewerbetreibenden Unternehmen der Stadt Berlin, nach Branche, Ausbildungsbetrieb, Mitarbeiterzahl, Alter des Unternehmens und rechtlichem Status.",
-    "author": "	Industrie-und Handelskammer zu Berlin",
+    "author": "Industrie- und Handelskammer zu Berlin",
     "license_id": "cc-zero",
     "berlin_source": "api-gitaction"
   },

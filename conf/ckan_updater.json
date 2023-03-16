@@ -8,6 +8,6 @@
     "berlin_source": "api-gitaction"
   },
   "connection": {
-    "ckan_base": "https://datenregister.stage.berlinonline.net"
+    "ckan_base": "https://datenregister.berlin.de/dataset/gewerbedaten-ihkberlin"
   }
 }

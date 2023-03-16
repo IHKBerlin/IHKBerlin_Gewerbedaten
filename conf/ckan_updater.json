@@ -1,9 +1,9 @@
 {
   "dataset": {
-    "id": "name_oder_id_des_datensatzes",
-    "title": "Titel des Datensatzes",
-    "notes": "Hier sollte eine Beschreibung des Datensatzes stehen.",
-    "author": "Name der Veröffentlichenden Stelle",
+    "id": "Gewerbedaten_der_IHK_Berlin",
+    "title": "Gewerbedaten der IHK Berlin",
+    "notes": "Geografische Verteilung der gewerbetreibenden Unternehmen der Stadt Berlin, nach Branche, Ausbildungsbetrieb, Mitarbeiterzahl, Alter des Unternehmens und rechtlichem Status.",
+    "author": "	Industrie- und Handelskammer zu Berlin",
     "license_id": "cc-zero",
     "berlin_source": "api-gitaction"
   },

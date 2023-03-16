@@ -1,6 +1,6 @@
 # IHK Berlin Open Data
 
-This repository contains open-source dataets from [IHK Berlin](https://www.ihk.de/berlin/).
+This repository contains open-source datasets from [IHK Berlin](https://www.ihk.de/berlin/).
 
 
 ## What kind of data?

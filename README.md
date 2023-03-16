@@ -1,7 +1,5 @@
 # IHK Berlin Open Data
 
----
-
 This repository contains open-source dataets from [IHK Berlin] (https://www.ihk.de/berlin/)
 
 
@@ -14,6 +12,10 @@ The dataset is updated every month, and the folder archivedData contains the his
 The data is for you to explore, visualize and to create combinations with other datasets. We are very interested what you can do and what you use it for.
 
 
-
 ## Contacts us
 opendata@berlin.ihk.de
+
+
+## Dataset description
+
+

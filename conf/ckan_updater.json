@@ -1,6 +1,6 @@
 {
   "dataset": {
-    "id": "Gewerbedaten_der_IHK_Berlin",
+    "id": "gewerbedaten-ihkberlin",
     "title": "Gewerbedaten der IHK Berlin",
     "notes": "Geografische Verteilung der gewerbetreibenden Unternehmen der Stadt Berlin, nach Branche, Ausbildungsbetrieb, Mitarbeiterzahl, Alter des Unternehmens und rechtlichem Status.",
     "author": "	Industrie- und Handelskammer zu Berlin",
@@ -8,6 +8,6 @@
     "berlin_source": "api-gitaction"
   },
   "connection": {
-    "ckan_base": "https://datenregister.berlin.de/dataset/gewerbedaten-ihkberlin"
+    "ckan_base": "https://datenregister.berlin.de/"
   }
 }

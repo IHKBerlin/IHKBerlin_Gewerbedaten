@@ -2,9 +2,7 @@
   "dataset": {
     "id": "gewerbedaten-ihkberlin",
     "title": "IHK Berlin Open Data",
-    "notes": "
-    
-## What kind of data?
+    "notes": "## What kind of data?
 The data comes primarily from the database of IHK Berlin and is additionally combined with [LOR](https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/sozialraumorientierte-planungsgrundlagen/lebensweltlich-orientierte-raeume/).
 The dataset is updated every month, and the folder archivedData contains the historical datasets. All datasets contain a unique and consistent ID. 
 

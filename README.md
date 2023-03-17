@@ -40,7 +40,7 @@ opendata@berlin.ihk.de
 | branch_top_level_desc    | Branch description of the business |
 | employees_range  | The reported number of employees as range  |
 | business_age    | Current age of the business |
-| business_type  | Kleingewerbetreibender = Tthe business is a small trader, im Handelsregister eingetragen = the business is registered in the Commercial Register  |
+| business_type  | "Kleingewerbetreibender" = the business is a small trader, "im Handelsregister eingetragen" = the business is registered in the Commercial Register  |
 
 ---
 

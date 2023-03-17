@@ -1,9 +1,9 @@
 {
   "dataset": {
     "id": "gewerbedaten-ihkberlin",
-    "title": "IHK Berlin Open Data",
-    "notes": "Geographical distribution of companies registered by the Chamber of Commerce and Industry (IHK) in the state of Berlin, by industry, employee class, age of the company and legal form.",
-    "author": "This repository contains open-source datasets from [IHK Berlin](https://www.ihk.de/berlin/).",
+    "title": "Gewerbedaten der IHK Berlin",
+    "notes": "Geografische Verteilung der gewerbetreibenden Unternehmen des Landes Berlin, nach Branche, Beschäftigtenklasse, Alter des Unternehmens und Rechtsform. Der Datensatz wird monatlich aktualisiert und beinhaltet die aktiven Gewerbetreibenden Berlins, die von der IHK erfasst wurden. Die Beschreibung der Spalten ist auf Gib Hub dokumentiert. Der Datensatz inkludiert die geografische Auflösung nach dem LOR, dessen Urheber das Amt für Statistik Berlin-Brandenburg ist.",
+    "author": "Industrie- und Handelskammer zu Berlin",
     "license_id": "cc-zero",
     "berlin_source": "api-gitaction",
     "url": "https://github.com/IHKBerlin/opendata"

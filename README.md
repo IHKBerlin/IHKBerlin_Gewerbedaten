@@ -21,7 +21,7 @@ opendata@berlin.ihk.de
 
 | Column        | Description |
 | ------------- | ------------- |
-| opendata_id  | primary key  |
+| opendata_id  | Primary key  |
 | longitude    | Geolocation of the business, described by the longitude  |
 | latitude     | Geolocation of the business, described by the latitude  |
 | postcode     | Postcode of the business |

@@ -21,9 +21,9 @@ opendata@berlin.ihk.de
 
 | Column        | Description |
 | ------------- | ------------- |
-| opendata_id  | Primary key  |
-| longitude    | Geolocation of the business, described by the longitude  |
-| latitude     | Geolocation of the business, described by the latitude  |
+| opendata_id  | Primary key |
+| longitude    | Geolocation of the business, described by the longitude (Format: EPSG 4326) |
+| latitude     | Geolocation of the business, described by the latitude (Format: EPSG 4326) |
 | postcode     | Postcode of the business |
 | city         | City of the business |
 | Bezirk       | Bezirk of the business |
@@ -32,12 +32,12 @@ opendata@berlin.ihk.de
 | Bezirksregion  | LOR Bezirksregion |
 | Planungsraum    | LOR Planungsraum |
 | planungsraum_id    | LOR Planungsraum ID |
-| ihk_branch_id  | Branch ID of the business as defined by IHK, further details [here](https://nacev2.com/de)  |
-| ihk_branch_desc    | Branch description of the business as defined by IHK   |
-| nace_id  | Branch ID of the business as defined by EU |
-| nace_desc    | Branch description of the business as defined by EU |
-| branch_top_level_id  | Branch ID of the business |
-| branch_top_level_desc    | Branch description of the business |
+| ihk_branch_id  | Branch ID of the business as defined by IHK classification of economic activities (finest granuality of distinction) |
+| ihk_branch_desc    | Branch description of the business as defined by IHK classification of economic activities|
+| nace_id  | Branch ID of the business as defined by EU classification of economic activities, see [NACE-Codes](https://nacev2.com/de) |
+| nace_desc    | Branch description of the business as defined by EU classification of economic activities|
+| branch_top_level_id  | Branch ID of the business as a broad classification of economic activities|
+| branch_top_level_desc    | Branch description of the business as a broad classification of economic activities |
 | employees_range  | The reported number of employees as range  |
 | business_age    | Current age of the business |
 | business_type  | "Kleingewerbetreibender" = the business is a small trader, "im Handelsregister eingetragen" = the business is registered in the Commercial Register  |

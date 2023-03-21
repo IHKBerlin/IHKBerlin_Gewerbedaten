@@ -32,7 +32,7 @@ opendata@berlin.ihk.de
 | Bezirksregion  | LOR Bezirksregion |
 | Planungsraum    | LOR Planungsraum |
 | planungsraum_id    | LOR Planungsraum ID |
-| ihk_branch_id  | Branch ID of the business as defined by IHK classification of economic activities (finest granuality of distinction) |
+| ihk_branch_id  | Branch ID of the business as defined by IHK classification of economic activities (finest granuality of distinction), see [IHK Wirtschaftszweige](https://www.ihk.de/blueprint/servlet/resource/blob/5186288/c8bb510197a45c71b59b7a27cdc31bcb/wzbra-wahlgruppen-fit-data.pdf) |
 | ihk_branch_desc    | Branch description of the business as defined by IHK classification of economic activities|
 | nace_id  | Branch ID of the business as defined by EU classification of economic activities, see [NACE-Codes](https://nacev2.com/de) |
 | nace_desc    | Branch description of the business as defined by EU classification of economic activities|

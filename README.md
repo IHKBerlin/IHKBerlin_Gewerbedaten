@@ -1,4 +1,4 @@
-# IHK Berlin Open Data
+# IHK Berlin Gewerbedaten
 
 This repository contains open-source datasets from [IHK Berlin](https://www.ihk.de/berlin/).
 

@@ -8,11 +8,11 @@ GOTO :EOF
 
 :Weiter
 copy %latest_file% .\data\latest_copy.csv
-del /f .\data\OD_IHK-Berlin.csv
-move .\data\latest_copy.csv .\data\OD_IHK-Berlin.csv
-git add -u ".\data\OD_IHK-Berlin.csv"
-REM git commit -m "Aktuelles Dataset"
-REM git push origin master --force --tags
+del /f .\data\IHKBerlin_Gewerbedaten.csv
+move .\data\latest_copy.csv .\data\IHKBerlin_Gewerbedaten.csv
+git add -u ".\data\IHKBerlin_Gewerbedaten.csv"
+git commit -m "Aktuelles Dataset"
+git push origin master --force --tags
 git add ".\archivedData\*.csv"
 git commit -m "Neues Dataset"
 git push origin master --force --tags

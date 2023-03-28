@@ -6,7 +6,7 @@
     "author": "Industrie- und Handelskammer zu Berlin",
     "license_id": "cc-zero",
     "berlin_source": "api-gitaction",
-    "url": "https://github.com/IHKBerlin/opendata"
+    "url": "https://github.com/IHKBerlin/IHKBerlin_Gewerbedaten"
   },
   "connection": {
     "ckan_base": "https://datenregister.berlin.de/"

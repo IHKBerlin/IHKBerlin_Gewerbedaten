@@ -14,6 +14,6 @@ git add -u ".\data\IHKBerlin_Gewerbedaten.csv"
 git commit -m "Aktuelles Dataset"
 git push origin master --force --tags
 git add ".\archivedData\*.csv"
-REM git commit -m "Archiv"
-git commit
+REM "Hier wird das Archiv-Verzeichnis gepusht"
+git commit -a --allow-empty-message -m ''
 git push origin master --force --tags

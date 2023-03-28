@@ -1,5 +1,6 @@
 .DS_Store
 *.log
 *.bat
+autocommit.bat
 temp
 conf/

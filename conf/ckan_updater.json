@@ -2,7 +2,7 @@
   "dataset": {
     "id": "gewerbedaten-ihkberlin",
     "title": "Gewerbedaten der IHK Berlin",
-    "notes": "Der Datensatz beinhaltet die geografische Verteilung der gewerbetreibenden Unternehmen des Landes Berlin, nach Branche, Beschäftigtenklasse, Alter des Unternehmens und Rechtsform. Die Daten werden monatlich aktualisiert und stellen die von der IHK erfassten, aktiven Gewerbetreibenden Berlins (Hauptsitze und Filialen) dar. Eine genaue Beschreibung der Daten und ein Archiv sind in dem GitHub Repository IHKBerlin_Gewerbedaten. Der Datensatz inkludiert die geografische Auflösung nach den Lebensweltlich orientierten Räumen (LOR) Berlins, erfasst vom Amt für Statistik Berlin-Brandenburg.",
+    "notes": "Der Datensatz beinhaltet die geografische Verteilung der gewerbetreibenden Unternehmen des Landes Berlin",
     "author": "Industrie- und Handelskammer zu Berlin",
     "license_id": "cc-zero",
     "berlin_source": "api-gitaction",

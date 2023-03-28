@@ -44,7 +44,7 @@ opendata@berlin.ihk.de
 
 ---
 
-## Lizenz
+## License
 
 The [data](data) in this repository is published under [Creative Commons Zero](https://opendefinition.org/licenses/cc-zero/).
 

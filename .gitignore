@@ -5,3 +5,4 @@ autocommit.bat
 temp
 conf/
 *.md
+*ps1

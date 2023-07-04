@@ -6,3 +6,4 @@ temp
 conf/
 *.md
 *ps1
+.github/

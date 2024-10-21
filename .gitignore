@@ -5,7 +5,8 @@ autocommit.bat
 temp
 conf/
 *.md
-*ps1
+*.ps1
+*.sh
 .github/
 archivedData/
 .ssh/

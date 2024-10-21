@@ -4,11 +4,11 @@ This repository contains open-source datasets from [IHK Berlin](https://www.ihk.
 
 ## What kind of data?
 The data comes primarily from the database of IHK Berlin and is additionally combined with [LOR](https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/sozialraumorientierte-planungsgrundlagen/lebensweltlich-orientierte-raeume/).
-The dataset is updated the 1st day of every month in the folder 'data'. The new datafile will replace the previous file. Also see archive of previous datafiles [here](https://ihkberlin.sharefile.eu/d-s8817fb550c154384bd5b32d91e169d31). All datasets contain a unique and consistent ID.
+The dataset is updated the 1st day of every month in the folder 'data'. The new datafile will replace the previous file. Also see archive of previous datafiles [here](https://cloud.ihk.berlin/d/62fad06b540745098ab7/). All datasets contain a unique and consistent ID.
 
 
 ## Where do I finde the data of previous months (archive)?
-All previous data files will be found [here](https://ihkberlin.sharefile.eu/d-s8817fb550c154384bd5b32d91e169d31).
+All previous data files will be found [here](https://cloud.ihk.berlin/d/62fad06b540745098ab7/).
 
 
 ## What can you do with it?

@@ -11,3 +11,4 @@ conf/
 archivedData/
 .ssh/
 _Archiv
+.script_run.lock

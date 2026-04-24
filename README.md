@@ -48,12 +48,11 @@ opendata@berlin.ihk.de
 ---
 
 ## License
-
 The [data](data) in this repository is published under [Creative Commons Zero](https://opendefinition.org/licenses/cc-zero/).
 
 
 ## Changelog
-In April 2026, an error was discovered in the data records. The values ​​in the "business_type" field had been transposed since the data was first provided. 
-This error was retroactively corrected for all files on April 24, 2026. 
+In April 2026, an error was discovered in the data records. The values ​​in the "business_type" field had been transposed since the data was first provided.
+This error was retroactively corrected for all files on April 24, 2026.
 At the same time, the naming scheme of the files was changed as follows: YYYY_MM__IHK_Berlin_Gewerbedaten.csv.
 
